@@ -95,7 +95,7 @@ public class fragmentTab1 extends Fragment {
                 }
             });
         }
-        input = (EditText) view.findViewById(R.id.chitAmount);
+        input = (EditText) view.findViewById(R.id.input);
         input.setOnEditorActionListener(new EditText.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
