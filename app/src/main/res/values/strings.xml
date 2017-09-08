@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Chit_complete</string>
+
+    <!--Tab Layout Heading-->
+    <string name="tab1">கணக்கு</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
