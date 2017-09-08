@@ -105,7 +105,7 @@ public class fragmentTab1 extends Fragment {
                     for (RadioButton button : buttons) {
                         if (button.isChecked()) {
                             Double chitAmount = Double.parseDouble(button.getText().toString());
-                            Double answer = (((chitAmount * 3) / 100 + chitAmount) - Double.parseDouble(input.getText().toString())) / 20;
+                            Double output = (((chitAmount * 3) / 100 + chitAmount) - Double.parseDouble(input.getText().toString())) / 20;
                             answer.setText(String.valueOf(output));
                             break;
                         }
@@ -123,9 +123,9 @@ public class fragmentTab1 extends Fragment {
                 button.setChecked(false);
         }
     }
-        return view;//inflater.inflate(R.layout.fragment_tab1, container, false);
+       // return view;//inflater.inflate(R.layout.fragment_tab1, container, false);
 
-    }
+
 
 
     // TODO: Rename method, update argument and hook method into UI event
